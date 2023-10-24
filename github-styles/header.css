@@ -1,0 +1,50 @@
+.github-page-header{
+    background-color: #24292F;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.github-page-header-navbar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.github-page-header-navbar div{
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+
+.github-page-header{
+    margin-left: 20px;
+
+}
+
+.github-page-header-left-part{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.product-text-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.solutions-text-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.open-source-text-container{
+    display: flex;
+    flex-direction: row;
+
+}
