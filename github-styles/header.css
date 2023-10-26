@@ -49,3 +49,15 @@
     margin-right: 2px;
     
 }
+
+.github-page-right-part-searchbox-container{
+    margin-top: -25px;
+
+}
+
+.github-page-right-part-searchbox-container input{
+    border: 1px solid #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+
+}
