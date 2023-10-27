@@ -22,7 +22,7 @@
 
 .github-page-header{
     margin-left: 20px;
-
+    
 }
 
 .github-page-header-left-part{
@@ -50,8 +50,17 @@
     
 }
 
+.github-page-header-right-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
 .github-page-right-part-searchbox-container{
     margin-top: -25px;
+    position: relative;
 
 }
 
@@ -59,5 +68,43 @@
     border: 1px solid #fff;
     padding: 2px 5px;
     border-radius: 5px;
+
+}
+
+.searchbox-search-icon-container svg{
+    background: transparent;
+
+}
+
+.sign-in-button-container button{
+    color: #FFF;
+
+}
+
+.sign-up-button-container button{
+    color: #FFF;
+
+}
+
+.github-page-right-part-searchbox-container{
+    display: flex;
+    width: 324px;
+    height: 30px;
+}
+
+.github-page-right-part-searchbox-container div input{
+    width: 324px;
+    height: 30px;
+    
+}
+
+.searchbox-search-icon-container{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 1px;
+    height: 16px;
+    border: 0.5px solid #979A9C;
+    border-radius: 2px;
+    margin-top: 2px;
 
 }
