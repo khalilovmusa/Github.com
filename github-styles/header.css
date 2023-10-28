@@ -1,4 +1,4 @@
-.github-page-header{
+.github-page-header {
     background-color: #24292F;
     color: #fff;
     text-align: center;
@@ -6,51 +6,51 @@
 
 }
 
-.github-page-header-navbar{
+.github-page-header-navbar {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
     margin-left: 10px;
-    
+
 }
 
-.github-page-header-navbar div{
+.github-page-header-navbar div {
     margin-left: 10px;
     cursor: pointer;
-    
+
 }
 
-.github-page-header{
+.github-page-header {
     margin-left: 20px;
-    
+
 }
 
-.github-page-header-left-part{
+.github-page-header-left-part {
     display: flex;
     flex-direction: row;
 
 }
 
-.product-text-container{
+.product-text-container {
     display: flex;
     flex-direction: row;
 
 }
 
-.solutions-text-container{
+.solutions-text-container {
     display: flex;
     flex-direction: row;
 
 }
 
-.open-source-text-container{
+.open-source-text-container {
     display: flex;
     flex-direction: row;
     margin-right: 2px;
-    
+
 }
 
-.github-page-header-right-part{
+.github-page-header-right-part {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -58,47 +58,52 @@
 
 }
 
-.github-page-right-part-searchbox-container{
+.github-page-right-part-searchbox-container {
     margin-top: -25px;
     position: relative;
 
 }
 
-.github-page-right-part-searchbox-container input{
+.github-page-right-part-searchbox-container input {
     border: 1px solid #fff;
     padding: 2px 5px;
     border-radius: 5px;
 
 }
 
-.searchbox-search-icon-container svg{
+.searchbox-search-icon-container svg {
     background: transparent;
 
 }
 
-.sign-in-button-container button{
+.sign-in-button-container button {
     color: #FFF;
 
 }
 
-.sign-up-button-container button{
+.sign-up-button-container button {
     color: #FFF;
 
 }
 
-.github-page-right-part-searchbox-container{
+.github-page-right-part-searchbox-container {
     display: flex;
     width: 324px;
     height: 30px;
 }
 
-.github-page-right-part-searchbox-container div input{
-    width: 324px;
-    height: 30px;
-    
+.github-page-header-right-part{
+    margin-top: -30px;
+
 }
 
-.searchbox-search-icon-container{
+.github-page-right-part-searchbox-container div input {
+    width: 324px;
+    height: 30px;
+
+}
+
+.searchbox-search-icon-container {
     position: absolute;
     margin-left: 5px;
     margin-top: 1px;
@@ -106,5 +111,44 @@
     border: 0.5px solid #979A9C;
     border-radius: 2px;
     margin-top: 2px;
+
+}
+
+.sign-in-button-container,
+.sign-up-button-container
+{
+    padding-bottom: 23px;
+
+}
+
+.sign-in-button-container button {
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    width: 60px;
+    height: 24px;
+    align-items: center;
+    background-color: #1E1E1E;
+    border: none;
+    cursor: pointer;
+
+}
+
+.sign-up-button-container button {
+    display: flex;
+    width: 72.27px;
+    height: 34px;
+    padding: 8px 8.8px 9px 9px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #D0D7DE;
+    cursor: pointer;
+    margin-left: 10px;
 
 }
