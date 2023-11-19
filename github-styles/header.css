@@ -3,7 +3,8 @@
     color: #fff;
     text-align: center;
     justify-content: center;
-
+    margin-top: 15px;
+    margin-right: 20px;
 }
 
 .github-page-header-navbar {
@@ -78,7 +79,9 @@
 
 .sign-in-button-container button {
     color: #FFF;
-
+    margin-left: 7px;
+    margin-right: 7px;
+    
 }
 
 .sign-up-button-container button {
@@ -105,18 +108,30 @@
 
 .searchbox-search-icon-container {
     position: absolute;
-    margin-left: 5px;
-    margin-top: 1px;
-    height: 16px;
-    border: 0.5px solid #979A9C;
-    border-radius: 2px;
-    margin-top: 2px;
+    margin-left: 3px;
+    margin-top: 5px;
+
+}
+
+.searchbox-slash-svg-container{
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    border: 1px solid #fff;
+    padding: 0.5px;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-radius: 6px;
+
+}
+
+.searchbox-slash-svg-container:hover{
+    cursor: pointer;
 
 }
 
 .sign-in-button-container,
-.sign-up-button-container
-{
+.sign-up-button-container{
     padding-bottom: 23px;
 
 }
