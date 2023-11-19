@@ -1,0 +1,13 @@
+.github-page-navbar-container{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: center;
+    
+}
+
+.github-page-navbar-container div{
+    margin-left: 10px;
+
+}
