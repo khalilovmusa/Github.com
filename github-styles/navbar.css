@@ -5,10 +5,12 @@
     height: 40px;
     justify-content: center;
     margin-top: 25px;
-    
+
 }
 
 .github-page-navbar-container div{
     margin-left: 10px;
-
+    display: flex;
+    flex-direction: row;
+    
 }
