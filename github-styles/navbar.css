@@ -14,3 +14,34 @@
     flex-direction: row;
     
 }
+
+.overview-text-container:hover {
+    cursor: pointer;
+}
+
+.overview-nav-container .overview-text-container a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.github-page-repo-container .repo-text-container a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.projects-text-container a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.packages-text-container a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.stars-text-container a{
+    color: #fff;
+    text-decoration: none;
+    
+}
