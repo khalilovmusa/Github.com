@@ -5,14 +5,17 @@
     height: 40px;
     justify-content: center;
     margin-top: 25px;
+    padding-left: 0px;
+    margin-left: 0px;
 
 }
 
 .github-page-navbar-container div{
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 7px;
     display: flex;
     flex-direction: row;
-    
+    margin-bottom: 7px;
 }
 
 .overview-text-container:hover {
@@ -43,5 +46,34 @@
 .stars-text-container a{
     color: #fff;
     text-decoration: none;
+
+}
+
+.overview-nav-container:hover{
+    border-bottom: 1px solid orangered;
+    transition: 0.25s;
+
+}
+
+.github-page-repo-container:hover{
+    border-bottom: 1px solid orangered;
+    transition: 0.25s;
+}
+
+.github-page-projects-container:hover{
+    border-bottom: 1px solid orangered;
+    transition: 0.25s;
+
+}
+
+.github-page-packages-contaier:hover{
+    border-bottom: 1px solid orangered;
+    transition: 0.25s;
+
+}
+
+.github-page-header-stars-container:hover{
+    border-bottom: 1px solid orangered;
+    transition: 0.25s;
     
 }
