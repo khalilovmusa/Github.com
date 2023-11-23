@@ -1,0 +1,11 @@
+.profile-and-repositories-container-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-container img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+}
