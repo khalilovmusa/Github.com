@@ -58,7 +58,7 @@
 .profile-follow-button-container button{
     background-color: #fff;
     width: 300px;
-    border-radius: 3px;
+    border-radius: 5px;
     height: 25px;
     margin-top: 10px;
 
@@ -66,5 +66,67 @@
 
 .profile-follow-button-container button:hover{
     cursor: pointer;
+
+}
+
+.followers-and-following-contaier{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+
+.followers-contaier{
+    display: flex;
+    flex-direction: row;
+    margin-right: 7px;
+    
+}
+
+.followers-svg-container{
+    margin-right: 5px;
+}
+
+.followers-svg-container svg{
+    color: #fff;
+
+}
+
+.followers-text-container a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.following-text-contaier a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+/*Stickers part*/
+
+.achievements-stickers-container{
+    border-top: 1px solid #D8DEE4;
+    margin-top: 20px;
+    padding-top: 10px;
+
+}
+
+.achievements-text-container{
+    color: #fff;
+
+}
+
+.stickers-itself-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+
+}
+
+.stickers-itself-container div img{
+    height: 70px;
+    width: 70px;
 
 }
