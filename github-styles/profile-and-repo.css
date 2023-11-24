@@ -50,12 +50,12 @@
 
 }
 
-.profile-user-name-container:hover{
+.profile-user-name-container:hover {
     cursor: pointer;
 
 }
 
-.profile-follow-button-container button{
+.profile-follow-button-container button {
     background-color: #fff;
     width: 300px;
     border-radius: 5px;
@@ -64,41 +64,41 @@
 
 }
 
-.profile-follow-button-container button:hover{
+.profile-follow-button-container button:hover {
     cursor: pointer;
 
 }
 
-.followers-and-following-contaier{
+.followers-and-following-contaier {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
 
 }
 
-.followers-contaier{
+.followers-contaier {
     display: flex;
     flex-direction: row;
     margin-right: 7px;
-    
+
 }
 
-.followers-svg-container{
+.followers-svg-container {
     margin-right: 5px;
 }
 
-.followers-svg-container svg{
+.followers-svg-container svg {
     color: #fff;
 
 }
 
-.followers-text-container a{
+.followers-text-container a {
     text-decoration: none;
     color: #fff;
 
 }
 
-.following-text-contaier a{
+.following-text-contaier a {
     text-decoration: none;
     color: #fff;
 
@@ -106,48 +106,54 @@
 
 /*Stickers part*/
 
-.achievements-stickers-container{
+.achievements-stickers-container {
     border-top: 1px solid #D8DEE4;
     margin-top: 20px;
     padding-top: 10px;
 
 }
 
-.achievements-text-container{
+.achievements-container{
+    margin-top: 49px;
+}
+
+.achievements-text-container {
     color: #fff;
+    margin-bottom: -20px;
 
 }
 
-.stickers-itself-container{
+.stickers-itself-container {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
-
+    margin-left: -10px;
 }
 
-.stickers-itself-container div img{
+.stickers-itself-container div img {
     height: 70px;
     width: 70px;
 
 }
 
-.beta-and-send-feedback-container{
+.beta-and-send-feedback-container {
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
 
 }
 
-.beta-and-send-feedback-container div a{
+.beta-and-send-feedback-container div a {
     text-decoration: none;
 
 }
 
-.beta-button-container a{
+.beta-button-container a {
     color: #1A7f37;
 
 }
 
-.beta-button-container{
+.beta-button-container {
     border: 1px solid #1A7F37;
     padding-left: 7px;
     padding-right: 7px;
@@ -155,8 +161,63 @@
 
 }
 
-.send-feedback-container a{
+.send-feedback-container a {
     margin-left: 5px;
+    color: lightskyblue;
+
+}
+
+.block-or-report-text-contaier {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.block-or-report-text-contaier a {
+    color: #656D76;
+    text-decoration: none;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* 150% */
+}
+
+/*repository parts*/
+/*First repo*/
+.popular-repos-itself-container{
+    display: grid;
+    grid-template-columns: 445px 445px;
+}
+
+.popular-repositories-container{
+    margin-left: 50px;
+
+}
+
+.popular-repositories-text-container{
     color: #fff;
-    
+    margin-bottom: 20px;
+}
+
+.app-repo-container div{
+    color: #1e1e1e;
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    width: 440px;
+    height: 97.3px;
+
+}
+
+.app-and-public-container{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+
+}
+
+.public-icon-container{
+    margin-left: 300px;
 }
