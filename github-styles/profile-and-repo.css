@@ -130,3 +130,33 @@
     width: 70px;
 
 }
+
+.beta-and-send-feedback-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.beta-and-send-feedback-container div a{
+    text-decoration: none;
+
+}
+
+.beta-button-container a{
+    color: #1A7f37;
+
+}
+
+.beta-button-container{
+    border: 1px solid #1A7F37;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px;
+
+}
+
+.send-feedback-container a{
+    margin-left: 5px;
+    color: #fff;
+    
+}
