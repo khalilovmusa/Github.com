@@ -189,6 +189,7 @@
 .popular-repos-itself-container{
     display: grid;
     grid-template-columns: 445px 445px;
+    column-gap: 70px;
 }
 
 .popular-repositories-container{
@@ -201,23 +202,42 @@
     margin-bottom: 20px;
 }
 
+.app-repo-container{
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    height: 97.3px;
+    background: #fff;
+    border-radius: 7px;
+
+}
+
 .app-repo-container div{
     color: #1e1e1e;
     display: flex;
     flex-direction: row;
     background: #fff;
-    width: 440px;
-    height: 97.3px;
-
 }
 
 .app-and-public-container{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-radius: 7px;
+    padding-top: 20px;
+    height: 10px;
+    margin-bottom: 20px;
 
 }
 
 .public-icon-container{
     margin-left: 300px;
+    border: 1px solid #1e1e1e;
+    height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+    font-size: 14px;
+
 }
