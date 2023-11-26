@@ -194,6 +194,7 @@
 
 .popular-repositories-container{
     margin-left: 50px;
+    margin-top: 20px;
 
 }
 
@@ -205,10 +206,17 @@
 .app-repo-container{
     display: flex;
     flex-direction: column;
-    width: 440px;
-    height: 97.3px;
+    width: 415px;
+    height: 100px;
     background: #fff;
     border-radius: 7px;
+
+}
+
+.app-txt-container a{
+    background: transparent;
+    text-decoration: none;
+    color: darkblue;
 
 }
 
@@ -226,6 +234,7 @@
     padding-top: 20px;
     height: 10px;
     margin-bottom: 20px;
+    margin-left: 10px;
 
 }
 
@@ -236,8 +245,43 @@
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 3px;
-    padding-bottom: 1px;
-    border-radius: 20px;
-    font-size: 14px;
+    padding-bottom: -10px;
+    border-radius: 13px;
+    font-size: 12px;
+
+}
+
+.public-icon-container:hover{
+    cursor: pointer;
+    
+}
+
+.repo-star-icon-container svg,
+.repo-fork-icon-container svg{
+    background-color: transparent;
+    margin-right: 3px;
+
+}
+
+.repo-details-container div{
+    margin-right: 3px;
+    font-size: 12px;
+
+}
+
+.repo-details-container{
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.most-used-language-color-svg-container svg{
+    color: orangered;
+    background: transparent;
+
+}
+
+.most-used-language-in-repo-container{
+    align-items: center;
 
 }

@@ -5,6 +5,7 @@
     justify-content: center;
     margin-top: 15px;
     margin-right: 20px;
+    flex-shrink: 0;
 }
 
 .github-page-header-navbar {
@@ -29,7 +30,8 @@
 .github-page-header-left-part {
     display: flex;
     flex-direction: row;
-
+    flex-shrink: 0;
+    
 }
 
 .product-text-container {
@@ -56,6 +58,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+    flex-shrink: 0;
 
 }
 
