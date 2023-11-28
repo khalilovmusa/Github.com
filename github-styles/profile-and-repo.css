@@ -267,14 +267,15 @@
 
 .repo-details-container div{
     margin-right: 3px;
-    font-size: 12px;
+    font-size: 13px;
 
 }
 
 .repo-details-container{
     margin-left: 20px;
     margin-top: 20px;
-
+    align-items: center;
+    
 }
 
 .most-used-language-color-svg-container svg{
@@ -291,7 +292,7 @@
 .repo-stars-number-container,
 .repo-fork-number-container{
     font-size: 15px;
-    
+
 }
 
 /*Second repository*/
@@ -357,5 +358,10 @@
 
 .html-css-most-used-language-txt-container{
     font-size: 13px;
+
+}
+
+.html-css-most-used-language{
+    align-items: center;
 
 }
