@@ -419,6 +419,11 @@
 
 }
 
+.trendyol-repo-public-icon-container:hover{
+    cursor: pointer;
+    
+}
+
 .trendyol-repo-most-used-language-container{
     align-items: center;
     margin-right: 5px;
