@@ -189,7 +189,9 @@
 .popular-repos-itself-container{
     display: grid;
     grid-template-columns: 445px 445px;
-    column-gap: 70px;
+    column-gap: 0px;
+    margin-top: 20px;
+
 }
 
 .popular-repositories-container{
@@ -284,4 +286,39 @@
 .most-used-language-in-repo-container{
     align-items: center;
 
+}
+
+.html-css-repo-container div{
+    background: #fff;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.html-css-repo-container{
+    display: flex;
+    flex-direction: column;
+    width: 415px;
+    height: 100px;
+    background: #fff;
+    border-radius: 7px;
+
+}
+
+.html-css-and-public-container{
+    margin-top: 20px;
+    background: transparent;
+
+}
+
+.html-css-txt-container{
+    
+}
+
+.html-css-most-used-language-color-svg-container svg{
+    background: transparent;
+    color: orangered;
+    
 }
