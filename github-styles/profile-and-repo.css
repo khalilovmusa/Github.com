@@ -288,6 +288,8 @@
 
 }
 
+/*Second repository*/
+
 .html-css-repo-container div{
     background: #fff;
     background-color: #fff;
@@ -296,6 +298,22 @@
 
 }
 
+.html-css-txt-container a{
+    background: transparent;
+    text-decoration: none;
+
+}
+
+.html-css-txt-container{
+    margin-left: 10px;
+
+}
+
+.html-css-details-container{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+}
 
 .html-css-repo-container{
     display: flex;
@@ -304,6 +322,8 @@
     height: 100px;
     background: #fff;
     border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 20px;
 
 }
 
@@ -313,7 +333,8 @@
 
 }
 
-.html-css-txt-container{
+.html-css-and-public-container{
+    margin-bottom: 30px;
     
 }
 
@@ -321,4 +342,9 @@
     background: transparent;
     color: orangered;
     
+}
+
+.html-css-star-svg-container svg{
+    background: transparent;
+
 }
