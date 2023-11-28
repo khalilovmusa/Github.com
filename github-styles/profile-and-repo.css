@@ -365,3 +365,29 @@
     align-items: center;
 
 }
+
+/*Third repository*/
+
+.trendyol-repo-container div{
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+
+}
+
+.trendyol-repo-container{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    background-color: #fff;
+    height: 97px;
+    width: 420px;
+    border-radius: 7px;
+    margin-top: 10px;
+
+}
+
+.trendyol-repo-txt-and-public-container{
+    background: transparent;
+    
+}
