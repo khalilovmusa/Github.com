@@ -380,14 +380,80 @@
     flex-direction: column;
     background: #fff;
     background-color: #fff;
-    height: 97px;
-    width: 420px;
+    height: 90px;
+    width: 393px;
     border-radius: 7px;
     margin-top: 10px;
-
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .trendyol-repo-txt-and-public-container{
     background: transparent;
     
+}
+
+.trendyol-repo-txt-and-public-container div a{
+    background: transparent;
+    text-decoration: none;
+
+}
+
+.trendyol-repo-txt-and-public-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+
+.trendyol-repo-public-icon-container{
+    margin-right: 20px;
+    font-size: 13px;
+    border: 1px solid #1e1e1e;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 18px;
+
+}
+
+.trendyol-repo-most-used-language-container{
+    align-items: center;
+    margin-right: 5px;
+    
+}
+
+.trendyol-repo-most-used-language-icon-svg-container svg{
+    background: transparent;
+    color: orangered;
+    margin-right: 3px;
+
+}
+
+.trendyol-repo-most-used-language-txt-container{
+    font-size: 13px;
+
+}
+
+.trendyol-repo-stars-container{
+    align-items: center;
+    margin-right: 4px;
+
+}
+
+.trendyol-repo-stars-container div svg{
+    background: transparent;
+
+}
+
+.trendyol-fork-container{
+    align-items: center;
+
+}
+
+.trendyol-fork-container div svg{
+    background: transparent;
+
 }

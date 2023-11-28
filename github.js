@@ -1,1 +1,1 @@
-alert("ig: @musaxelilovv");
+//alert("ig: @musaxelilovv");
