@@ -288,6 +288,12 @@
 
 }
 
+.repo-stars-number-container,
+.repo-fork-number-container{
+    font-size: 15px;
+    
+}
+
 /*Second repository*/
 
 .html-css-repo-container div{
@@ -312,7 +318,7 @@
 .html-css-details-container{
     margin-left: 10px;
     margin-bottom: 20px;
-    
+
 }
 
 .html-css-repo-container{
@@ -334,7 +340,7 @@
 }
 
 .html-css-and-public-container{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     
 }
 
@@ -346,5 +352,10 @@
 
 .html-css-star-svg-container svg{
     background: transparent;
+
+}
+
+.html-css-most-used-language-txt-container{
+    font-size: 13px;
 
 }
