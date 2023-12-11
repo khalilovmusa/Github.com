@@ -540,3 +540,13 @@
     padding-bottom: 1px;
 
 }
+
+.js-course-repo-bottom-part div{
+    margin-left: 4px;
+
+}
+
+.popular-repos-itself-container div:hover{
+    cursor: pointer;
+    
+}
