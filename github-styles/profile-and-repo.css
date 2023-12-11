@@ -462,3 +462,49 @@
     background: transparent;
 
 }
+
+/*Fourth repository*/
+.js-course-learning-repo-container{
+    margin-top: 10px;
+    border-radius: 7px;
+
+}
+
+.js-course-learning-repo-container div{
+    background-color: #fff;
+}
+
+.js-course-repo-top-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.js-course-repo-top-part div a{
+    text-decoration: none;
+    background: transparent;
+
+}
+
+.js-course-repo-bottom-part{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.js-course-repo-bottom-part div{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.js-learning-most-used-lang-color-div{
+    color: orangered;
+
+}
+
+.js-course-repo-bottom-part div svg{
+    background: transparent;
+
+}
