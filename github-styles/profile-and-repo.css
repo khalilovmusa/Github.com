@@ -464,21 +464,26 @@
 }
 
 /*Fourth repository*/
+
+
 .js-course-learning-repo-container{
     margin-top: 10px;
     border-radius: 7px;
+    background-color: #fff;
 
 }
 
 .js-course-learning-repo-container div{
     background-color: #fff;
+    border-radius: 10px;
+    
 }
 
 .js-course-repo-top-part{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
 }
 
 .js-course-repo-top-part div a{
@@ -506,5 +511,32 @@
 
 .js-course-repo-bottom-part div svg{
     background: transparent;
+
+}
+
+.js-course-learning-repo-container{
+    padding-top: 10px;
+
+}
+
+.js-course-repo-top-left-part{
+    margin-left: 20px;
+
+}
+
+.js-course-repo-top-right-part-public-container{
+    margin-right: 25px;
+
+}
+
+.js-course-repo-top-right-part-public-container a{
+    font-size: 14px;
+    border: 1px solid #1e1e1e;
+    border-radius: 20px;
+    color: #1e1e1e;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 
 }
