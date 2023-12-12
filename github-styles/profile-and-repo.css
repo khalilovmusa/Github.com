@@ -550,3 +550,56 @@
     cursor: pointer;
     
 }
+
+/*Fifth repository*/
+
+.js-learning-course-2-container{
+    margin-top: 10px;
+}
+
+.js-learning-course-2-container div{
+    background-color: #fff;
+
+}
+
+.js-learning-course-2-top-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.js-learning-course-2-bottom-part{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.js-learning-bottom-part-most-used-lang-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.js-learning-bottom-part-repo-stars-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.js-learning-bottom-part-fork-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.js-learning-most-used-lang-color-svg-container{
+    background: transparent;
+
+}
+
+.js-learning-most-used-lang-color-svg-container svg{
+    color: purple;
+    background: transparent;
+
+}
