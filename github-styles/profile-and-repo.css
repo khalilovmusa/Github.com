@@ -555,6 +555,8 @@
 
 .js-learning-course-2-container{
     margin-top: 10px;
+    width: 413px;
+
 }
 
 .js-learning-course-2-container div{
@@ -601,5 +603,16 @@
 .js-learning-most-used-lang-color-svg-container svg{
     color: purple;
     background: transparent;
+
+}
+
+.js-learning-course-2-top-part div a{
+    background: transparent;
+    text-decoration: none;
+
+}
+
+.js-learning-course-2-top-part{
+    padding-bottom: 55px;
 
 }
