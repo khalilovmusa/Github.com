@@ -556,11 +556,14 @@
 .js-learning-course-2-container{
     margin-top: 10px;
     width: 413px;
-
+    background-color: #fff;
+    border-radius: 10px;
+    
 }
 
 .js-learning-course-2-container div{
     background-color: #fff;
+    border-radius: 10px;
 
 }
 
@@ -568,6 +571,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 7px;
+    margin-left: 17px;
+    margin-right: 17px;
 
 }
 
@@ -614,5 +620,49 @@
 
 .js-learning-course-2-top-part{
     padding-bottom: 55px;
+    margin-top: 13px;
+
+}
+
+.js-learning-top-part-right-section-container a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #1e1e1e;
+
+}
+
+.js-learning-top-part-right-section-container{
+    border: 1px solid #1e1e1e;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 20px;
+
+}
+
+.js-learning-top-part-right-section-container:hover{
+    cursor: pointer;
+
+}
+
+.js-learning-course-2-bottom-part{
+    margin-bottom: 10px;
+
+}
+
+.js-learning-course-2-bottom-part div{
+    margin-left: 5px;
+
+}
+
+.js-learning-course-2-bottom-part div div svg{
+    background: transparent;
+
+}
+
+.js-learning-most-used-lang-color-svg-container svg{
+    height: 15px;
+    width: 15px;
 
 }
