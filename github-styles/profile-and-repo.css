@@ -619,7 +619,7 @@
 }
 
 .js-learning-course-2-top-part{
-    padding-bottom: 55px;
+    padding-bottom: 45px;
     margin-top: 13px;
 
 }
@@ -665,4 +665,78 @@
     height: 15px;
     width: 15px;
 
+}
+
+/*6th repository*/
+
+.reponame-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 443px;
+    padding-bottom: 35px;
+
+}
+
+.reponame-top-section{
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+.reponame-container div{
+    background-color: transparent;
+
+}
+
+.reponame-top-left-section a{
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+
+.reponame-top-right-section a{
+    background-color: transparent;
+    text-decoration: none;
+    margin-left: 300px;
+    border: 1px solid #1e1e1e;
+    font-size: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 12px;
+    color: #1e1e1e;
+
+}
+
+.reponame-bottom-section{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+
+}
+
+.reponame-bottom-left-section{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.reponame-bottom-part-most-used-lang-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.most-used-lang-color-svg-container{
+    margin-right: 3px;
+    
 }
